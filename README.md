@@ -1,4 +1,4 @@
-# Hệ Thống Tưới Cây Thông Minh IoT (ESP8266 + Blynk + Dự Báo Thời Tiết)
+# Hệ thống tưới tiêu thông minh
 
 Hệ thống tưới cây tự động thông minh sử dụng vi điều khiển ESP8266 kết hợp cảm biến, màn hình hiển thị, ứng dụng quản lý từ xa qua Blynk, lưu trữ dữ liệu tập trung trên Google Sheets và tự động tối ưu lượng nước tưới dựa theo dự báo thời tiết từ AccuWeather.
 
@@ -17,11 +17,10 @@ Hệ thống tưới cây tự động thông minh sử dụng vi điều khiể
   - Cập nhật liên tục Nhiệt độ, Độ ẩm không khí và Độ ẩm đất lên ứng dụng Blynk theo thời gian thực.
   - Đồng bộ trạng thái máy bơm và chế độ hoạt động giữa thiết bị và ứng dụng.
 - **Ghi nhật ký dữ liệu Đám mây (Google Sheets):**
-  - Tự động gửi dữ liệu cảm biến định kỳ (mỗi 60 giây) lên Google Sheets thông qua Google Apps Script Web App.
+  - Tự động gửi dữ liệu cảm biến định kỳ (mỗi 60 giây) lên Google Sheets 
 - **Màn hình hiển thị tại chỗ (LCD 16x2 I2C):**
   - Hiển thị trực quan thông số `T` (Nhiệt độ), `H` (Độ ẩm không khí), `SWC` (Độ ẩm đất), trạng thái máy bơm (`ON`/`OFF`) và tình hình thời tiết hiện tại.
-- **Cảnh báo biến động nhiệt độ:**
-  - Phát hiện và ghi nhận sự sụt giảm nhiệt độ đột ngột (> 5°C trong khoảng thời gian ngắn).
+
 
 ---
 
