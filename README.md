@@ -88,10 +88,3 @@ Trước khi biên dịch code, bạn cần cài đặt các thư viện sau tro
 
 ---
 
-## 🚀 Hướng Dẫn Cấu Hình & Nạp Code
-
-1. Mở file mã nguồn trong **Arduino IDE**.
-2. Thay đổi thông tin kết nối Wi-Fi:
-   ```cpp
-   const char* ssid = "TEN_WIFI_CUA_BAN";
-   const char* password = "MAT_KHAU_WIFI";
